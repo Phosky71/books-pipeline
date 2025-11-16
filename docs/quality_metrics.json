@@ -1,0 +1,40 @@
+{
+  "total_libros_dimbook": 20,
+  "%_isbn13_validos": 0.0,
+  "%_titulos_validos": 100.0,
+  "%_fechas_validas": 0.0,
+  "%_idioma_bcp47": 45.0,
+  "%_moneda_iso4217": null,
+  "duplicados_encontrados": 0,
+  "nulos_por_campo": {
+    "title": 1,
+    "author": 10,
+    "rating": 10,
+    "ratings_count": 10,
+    "book_url": 10,
+    "isbn13": 20,
+    "fecha_publicacion": 20,
+    "idioma": 11,
+    "fuente": 0,
+    "titulo_normalizado": 0,
+    "autores": 0,
+    "editorial": 11,
+    "anio_publicacion": 20,
+    "ts_ultima_actualizacion": 0,
+    "subtitle": 12,
+    "authors": 11,
+    "publisher": 11,
+    "language": 11,
+    "categories": 11,
+    "isbn10": 12,
+    "dup_key": 0,
+    "fuente_prioridad": 0,
+    "num_nulos": 0,
+    "fuente_ganadora": 0
+  },
+  "filas_por_fuente": {
+    "goodreads": 10,
+    "googlebooks": 10
+  },
+  "generado_en": "2025-11-16T11:19:03.554620"
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "scrape_url": "https://www.goodreads.com/search?q=bitcoin",
+    "user-agent": "Mozilla/5.0 (compatible; AntonioBot/1.0; +https://github.com/Phosky71/books-pipeline)",
+    "fecha_scraping": "2025-11-16T10:53:43.726823",
+    "n_registros": 10,
+    "campos": [
+      "title",
+      "author",
+      "rating",
+      "ratings_count",
+      "book_url",
+      "isbn10",
+      "isbn13"
+    ],
+    "selectores": {
+      "title": "a.bookTitle span",
+      "author": "a.authorName span",
+      "rating": "span.minirating",
+      "book_url": "a.bookTitle"
+    }
+  },
+  "data": [
+    {
+      "title": "The Bitcoin Standard: The Decentralized Alternative to Central Banking",
+      "author": "Saifedean Ammous",
+      "rating": 4.17,
+      "ratings_count": 13977,
+      "book_url": "https://www.goodreads.com/book/show/36448501-the-bitcoin-standard?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=1",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money",
+      "author": "Nathaniel Popper",
+      "rating": 4.14,
+      "ratings_count": 6915,
+      "book_url": "https://www.goodreads.com/book/show/23546676-digital-gold?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=2",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption",
+      "author": "Ben Mezrich",
+      "rating": 3.98,
+      "ratings_count": 7550,
+      "book_url": "https://www.goodreads.com/book/show/41433284-bitcoin-billionaires?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=3",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "Blockchain Revolution: How the Technology Behind Bitcoin Is Changing Money, Business, and the World",
+      "author": "Don Tapscott",
+      "rating": 3.38,
+      "ratings_count": 4704,
+      "book_url": "https://www.goodreads.com/book/show/25894041-blockchain-revolution?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=4",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "Mastering Bitcoin: Unlocking Digital Cryptocurrencies",
+      "author": "Andreas M. Antonopoulos",
+      "rating": 4.3,
+      "ratings_count": 2800,
+      "book_url": "https://www.goodreads.com/book/show/21820378-mastering-bitcoin?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=5",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them",
+      "author": "Antony Lewis",
+      "rating": 4.08,
+      "ratings_count": 2408,
+      "book_url": "https://www.goodreads.com/book/show/40541157-the-basics-of-bitcoins-and-blockchains?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=6",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "The Age of Cryptocurrency: How Bitcoin and Digital Money Are Challenging the Global Economic Order",
+      "author": "Paul Vigna",
+      "rating": 3.83,
+      "ratings_count": 2863,
+      "book_url": "https://www.goodreads.com/book/show/22174460-the-age-of-cryptocurrency?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=7",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond",
+      "author": "Chris Burniske",
+      "rating": 3.92,
+      "ratings_count": 2356,
+      "book_url": "https://www.goodreads.com/book/show/36197082-cryptoassets?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=8",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "The Little Bitcoin Book: Why Bitcoin Matters for Your Freedom, Finances, and Future",
+      "author": "Bitcoin Collective",
+      "rating": 4.13,
+      "ratings_count": 679,
+      "book_url": "https://www.goodreads.com/book/show/51815985-the-little-bitcoin-book?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=9",
+      "isbn10": null,
+      "isbn13": null
+    },
+    {
+      "title": "Thank God for Bitcoin: The Creation, Corruption and Redemption of Money",
+      "author": "Bitcoin and Bible Group",
+      "rating": 4.13,
+      "ratings_count": 470,
+      "book_url": "https://www.goodreads.com/book/show/56049234-thank-god-for-bitcoin?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=10",
+      "isbn10": null,
+      "isbn13": null
+    }
+  ]
+}
