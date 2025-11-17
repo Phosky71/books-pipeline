@@ -1,5 +1,7 @@
 import re
 
+import pandas as pd
+
 
 def is_valid_isbn13(isbn):
     # Validación algoritmo estándar ISBN-13
@@ -35,3 +37,9 @@ def extract_isbn(text):
     isbn10 = next((m for m in matches if len(m) == 10), None)
     isbn13 = next((m for m in matches if len(m) == 13), None)
     return isbn10, isbn13
+
+
+def normalize_isbn10(isbn):
+    if pd.isna(isbn): return None
+    x = str(isbn).strip().replace("-", "")
+    return x if len(x) == 10 and x.isdigit() else None

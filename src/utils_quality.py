@@ -49,5 +49,5 @@ def validate_quality_metrics(df):
         "unicidad_book_id": uniqueness_check(df, "book_id"),
         "%_fechas_iso": validate_date_iso(df, "fecha_publicacion"),
         "%_idiomas_bcp47": validate_language(df, "idioma"),
-        "%_monedas_iso4217": validate_currency(df, "moneda") if "moneda" in df else None,
+        "%_monedas_iso4217": validate_currency(df, "moneda") if "moneda" in df else None
     }

@@ -1,9 +1,10 @@
 {
   "meta": {
-    "scrape_url": "https://www.goodreads.com/search?q=bitcoin",
-    "user-agent": "Mozilla/5.0 (compatible; AntonioBot/1.0; +https://github.com/Phosky71/books-pipeline)",
-    "fecha_scraping": "2025-11-16T10:53:43.726823",
-    "n_registros": 10,
+    "scrape_url": "https://www.goodreads.com/search?q=non-fiction",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "fecha_scraping": "2025-11-17T21:38:07.258908",
+    "n_registros": 20,
+    "n_paginas_scrapeadas": 2,
     "campos": [
       "title",
       "author",
@@ -12,102 +13,186 @@
       "book_url",
       "isbn10",
       "isbn13"
-    ],
-    "selectores": {
-      "title": "a.bookTitle span",
-      "author": "a.authorName span",
-      "rating": "span.minirating",
-      "book_url": "a.bookTitle"
-    }
+    ]
   },
   "data": [
     {
-      "title": "The Bitcoin Standard: The Decentralized Alternative to Central Banking",
-      "author": "Saifedean Ammous",
-      "rating": 4.17,
-      "ratings_count": 13977,
-      "book_url": "https://www.goodreads.com/book/show/36448501-the-bitcoin-standard?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=1",
+      "title": "A Slip of the Keyboard: Collected Non-Fiction",
+      "author": "Terry Pratchett",
+      "rating": 4.24,
+      "ratings_count": 5999,
+      "book_url": "https://www.goodreads.com/book/show/17278807-a-slip-of-the-keyboard?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=1",
+      "isbn10": "0857521225",
+      "isbn13": "9780857521224"
+    },
+    {
+      "title": "Non-Fiction",
+      "author": "Chuck Palahniuk",
+      "rating": 3.57,
+      "ratings_count": 22918,
+      "book_url": "https://www.goodreads.com/book/show/24820339-non-fiction?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=2",
       "isbn10": null,
       "isbn13": null
     },
     {
-      "title": "Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money",
-      "author": "Nathaniel Popper",
-      "rating": 4.14,
-      "ratings_count": 6915,
-      "book_url": "https://www.goodreads.com/book/show/23546676-digital-gold?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=2",
-      "isbn10": null,
-      "isbn13": null
+      "title": "Selected Non-Fictions",
+      "author": "Jorge Luis Borges",
+      "rating": 4.44,
+      "ratings_count": 2363,
+      "book_url": "https://www.goodreads.com/book/show/16566.Selected_Non_Fictions?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=3",
+      "isbn10": "0140290117",
+      "isbn13": "9780140290110"
     },
     {
-      "title": "Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption",
-      "author": "Ben Mezrich",
-      "rating": 3.98,
-      "ratings_count": 7550,
-      "book_url": "https://www.goodreads.com/book/show/41433284-bitcoin-billionaires?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=3",
-      "isbn10": null,
-      "isbn13": null
+      "title": "Human Body Theater: A Non-Fiction Revue",
+      "author": "Maris Wicks",
+      "rating": 4.42,
+      "ratings_count": 1945,
+      "book_url": "https://www.goodreads.com/book/show/23310686-human-body-theater?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=4",
+      "isbn10": "1596439297",
+      "isbn13": "9781596439290"
     },
     {
-      "title": "Blockchain Revolution: How the Technology Behind Bitcoin Is Changing Money, Business, and the World",
-      "author": "Don Tapscott",
-      "rating": 3.38,
-      "ratings_count": 4704,
-      "book_url": "https://www.goodreads.com/book/show/25894041-blockchain-revolution?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=4",
-      "isbn10": null,
-      "isbn13": null
+      "title": "Empire of Pain: The Secret History of the Sackler Dynasty, winner of the Baillie Gifford Prize for Non-Fiction",
+      "author": "Patrick Radden Keefe",
+      "rating": 4.54,
+      "ratings_count": 132288,
+      "book_url": "https://www.goodreads.com/book/show/57797381-empire-of-pain?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=5",
+      "isbn10": "1529063086",
+      "isbn13": "9781529063080"
     },
     {
-      "title": "Mastering Bitcoin: Unlocking Digital Cryptocurrencies",
-      "author": "Andreas M. Antonopoulos",
-      "rating": 4.3,
-      "ratings_count": 2800,
-      "book_url": "https://www.goodreads.com/book/show/21820378-mastering-bitcoin?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=5",
-      "isbn10": null,
-      "isbn13": null
+      "title": "The Complete Works of Mark Twain: The Novels, Short Stories, Essays and Satires, Travel Writing, Non-Fiction, the Complete Letters, the Complete Speeches, and the Autobiography of Mark Twain",
+      "author": "Mark Twain",
+      "rating": 4.4,
+      "ratings_count": 2147,
+      "book_url": "https://www.goodreads.com/book/show/21461029-the-complete-works-of-mark-twain?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=6",
+      "isbn10": "8026807448",
+      "isbn13": "9788026807445"
     },
     {
-      "title": "The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them",
-      "author": "Antony Lewis",
+      "title": "True stories: Selected non-fiction",
+      "author": "Helen Garner",
+      "rating": 4.12,
+      "ratings_count": 1275,
+      "book_url": "https://www.goodreads.com/book/show/1486730.True_stories?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=7",
+      "isbn10": "1875847243",
+      "isbn13": "9781875847242"
+    },
+    {
+      "title": "Kapuściński non-fiction",
+      "author": "Artur Domosławski",
       "rating": 4.08,
-      "ratings_count": 2408,
-      "book_url": "https://www.goodreads.com/book/show/40541157-the-basics-of-bitcoins-and-blockchains?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=6",
+      "ratings_count": 999,
+      "book_url": "https://www.goodreads.com/book/show/7810777-kapu-ci-ski-non-fiction?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=8",
+      "isbn10": "8324719067",
+      "isbn13": "9788324719068"
+    },
+    {
+      "title": "The Scribe Method: The Best Way to Write and Publish Your Non-Fiction Book",
+      "author": "Tucker Max",
+      "rating": 4.1,
+      "ratings_count": 232,
+      "book_url": "https://www.goodreads.com/book/show/45318221-the-scribe-method?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=9",
+      "isbn10": "1544514050",
+      "isbn13": "9781544514055"
+    },
+    {
+      "title": "How To Write Non-Fiction: Turn Your Knowledge Into Words (Writing Craft Books)",
+      "author": "Joanna Penn",
+      "rating": 4.19,
+      "ratings_count": 476,
+      "book_url": "https://www.goodreads.com/book/show/39887538-how-to-write-non-fiction?from_search=true&from_srp=true&qid=aUiPEp4vb5&rank=10",
       "isbn10": null,
       "isbn13": null
     },
     {
-      "title": "The Age of Cryptocurrency: How Bitcoin and Digital Money Are Challenging the Global Economic Order",
-      "author": "Paul Vigna",
-      "rating": 3.83,
-      "ratings_count": 2863,
-      "book_url": "https://www.goodreads.com/book/show/22174460-the-age-of-cryptocurrency?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=7",
+      "title": "On Writing Well: The Classic Guide to Writing Non-Fiction",
+      "author": "William Zinsser",
+      "rating": 4.23,
+      "ratings_count": 30594,
+      "book_url": "https://www.goodreads.com/book/show/1176982.On_Writing_Well?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=11",
+      "isbn10": "0060006641",
+      "isbn13": "9780060006648"
+    },
+    {
+      "title": "Self-Promote & Succeed: The No Boring Books Way to Build Your Brand, Attract Your Audience, and Market Your Non-Fiction Book",
+      "author": "Julie Broad",
+      "rating": 4.61,
+      "ratings_count": 46,
+      "book_url": "https://www.goodreads.com/book/show/198667838-self-promote-succeed?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=12",
+      "isbn10": "1736031511",
+      "isbn13": "9781736031513"
+    },
+    {
+      "title": "How to Write a Non-fiction Ebook in 21 Days",
+      "author": "Steve  Scott",
+      "rating": 3.95,
+      "ratings_count": 452,
+      "book_url": "https://www.goodreads.com/book/show/17617199-how-to-write-a-non-fiction-ebook-in-21-days?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=13",
       "isbn10": null,
       "isbn13": null
     },
     {
-      "title": "Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond",
-      "author": "Chris Burniske",
-      "rating": 3.92,
-      "ratings_count": 2356,
-      "book_url": "https://www.goodreads.com/book/show/36197082-cryptoassets?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=8",
+      "title": "Why Do You Look at Me and See a Girl? (35) (GWE Creative Non-Fiction)",
+      "author": "Anvi Hoàng",
+      "rating": 4.65,
+      "ratings_count": 151,
+      "book_url": "https://www.goodreads.com/book/show/54578808-why-do-you-look-at-me-and-see-a-girl-35?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=14",
+      "isbn10": "1771834455",
+      "isbn13": "9781771834452"
+    },
+    {
+      "title": "Documentary: A History of the Non-Fiction Film",
+      "author": "Erik Barnouw",
+      "rating": 3.86,
+      "ratings_count": 438,
+      "book_url": "https://www.goodreads.com/book/show/442285.Documentary?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=15",
+      "isbn10": "0195078985",
+      "isbn13": "9780195078985"
+    },
+    {
+      "title": "The View from the Cheap Seats: Selected Non-fiction",
+      "author": "Neil Gaiman",
+      "rating": 3.96,
+      "ratings_count": 16349,
+      "book_url": "https://www.goodreads.com/book/show/29069004-the-view-from-the-cheap-seats?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=16",
+      "isbn10": "1472208013",
+      "isbn13": "9781472208019"
+    },
+    {
+      "title": "Rocket Fuel: Some of the Best From Tor.com Non-Fiction",
+      "author": "Bridget McGovern",
+      "rating": 3.43,
+      "ratings_count": 162,
+      "book_url": "https://www.goodreads.com/book/show/40862113-rocket-fuel?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=17",
       "isbn10": null,
       "isbn13": null
     },
     {
-      "title": "The Little Bitcoin Book: Why Bitcoin Matters for Your Freedom, Finances, and Future",
-      "author": "Bitcoin Collective",
-      "rating": 4.13,
-      "ratings_count": 679,
-      "book_url": "https://www.goodreads.com/book/show/51815985-the-little-bitcoin-book?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=9",
-      "isbn10": null,
-      "isbn13": null
+      "title": "The Total Library: Non-Fiction 1922-1986",
+      "author": "Jorge Luis Borges",
+      "rating": 4.41,
+      "ratings_count": 251,
+      "book_url": "https://www.goodreads.com/book/show/30712.The_Total_Library?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=18",
+      "isbn10": "0141183020",
+      "isbn13": "9780141183022"
     },
     {
-      "title": "Thank God for Bitcoin: The Creation, Corruption and Redemption of Money",
-      "author": "Bitcoin and Bible Group",
-      "rating": 4.13,
-      "ratings_count": 470,
-      "book_url": "https://www.goodreads.com/book/show/56049234-thank-god-for-bitcoin?from_search=true&from_srp=true&qid=i0N9Q89XbO&rank=10",
+      "title": "True Stories: The Collected Short Non-Fiction",
+      "author": "Helen Garner",
+      "rating": 4.12,
+      "ratings_count": 1275,
+      "book_url": "https://www.goodreads.com/book/show/35576146-true-stories?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=19",
+      "isbn10": "1925498875",
+      "isbn13": "9781925498875"
+    },
+    {
+      "title": "Write Short Kindle Books: A Self-Publishing Manifesto for Non-Fiction Authors (Indie Author Success #1)",
+      "author": "Nathan Meunier",
+      "rating": 4.19,
+      "ratings_count": 325,
+      "book_url": "https://www.goodreads.com/book/show/24440957-write-short-kindle-books?from_search=true&from_srp=true&qid=9JaoncqKgF&rank=20",
       "isbn10": null,
       "isbn13": null
     }
