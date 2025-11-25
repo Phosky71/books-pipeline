@@ -49,10 +49,6 @@ Configura Google Books API key en `.env`. Ejecuta los scripts desde `src/`, gene
 - Separador CSV: coma; encoding: UTF-8
 - Prioridad de búsqueda: ISBN > título+autor
 - Normalización: fechas ISO-8601, idioma BCP-47, moneda ISO-4217
-
-## Entregables
-- Artefactos en `standard/` y `docs/`, README exportable a PDF para entrega SBDxx y link repositorio.
-
 ---
 
 > Para detalles específicos de cada etapa, consulta el enunciado y la documentación en `docs/schema.md` y `docs/quality_metrics.json`.
